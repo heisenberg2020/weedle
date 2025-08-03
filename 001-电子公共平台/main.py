@@ -85,7 +85,7 @@ def get_all_trade_data():
     """
     print("开始获取第1页数据...")
 
-    with open('./new.js', 'r', encoding='utf-8') as f:
+    with open('new.js', 'r', encoding='utf-8') as f:
         js_file = f.read()
     c = execjs.compile(js_file)
 
